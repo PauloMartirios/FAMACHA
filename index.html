@@ -48,10 +48,7 @@
                 carne,
                 leite e derivados para a população e contribuindo para a segurança alimentar do país, essa atividade
                 também impacta positivamente as áreas rurais, gerando empregos e promovendo o desenvolvimento
-                econômico local (Martins, Espedito Cezário, et al). 
-            </p>
-            <p class="lead">
-                A pecuária desses animais é reconhecida por sua
+                econômico local (Martins, Espedito Cezário, et al). A pecuária desses animais é reconhecida por sua
                 sustentabilidade, já que são adaptados ao clima tropical brasileiro e têm menor impacto ambiental
                 comparado a outros ruminantes. Ademais, a criação de cabras e ovelhas desempenha um papel essencial
                 na diversificação da produção agrícola do Brasil, permitindo a participação de pequenos e médios
@@ -59,25 +56,90 @@
                 amplia o potencial de exportação e abre novos mercados internacionais, fortalecendo assim o
                 desenvolvimento rural, a segurança alimentar e a sustentabilidade no país.
             </p>
-            <p  class="lead">
+            <p class="lead">
                 Cuidados adequados com a saúde de cabras e ovelhas são cruciais para o bem-estar, produtividade e
                 rentabilidade da criação (Martins, Espedito Cezário, et al.). Isso inclui medidas preventivas como
                 vacinação,
                 nutrição equilibrada e higiene, além da observação constante para detectar sinais de doença ou
-                parasitismo.
+                parasitismo. Um grande desafio é combater o parasita Haemonchus contortus, prevalente em regiões
+                tropicais e subtropicais, causando anemia grave, perda de peso e baixo desempenho reprodutivo. A
+                resistência do parasita a medicamentos torna o controle complexo, tornando essencial investir em cuidados
+                de saúde e estratégias eficazes para garantir um rebanho saudável e produtivo. Isso contribuirá para a
+                sustentabilidade da criação de cabras e ovelhas no Brasil, fortalecendo o setor agropecuário e fornecendo
+                produtos de qualidade para o consumo humano (Molento, Marcelo Beltrão, et al).
+                </p>
+            <p class="lead">
+                O método FAMACHA é uma ferramenta essencial na criação de cabras e ovelhas no Brasil para a
+                gestão da saúde dos animais, avaliando visualmente o grau de anemia causado pelo parasita "Haemonchus
+                contortus". Ao identificar individualmente os animais mais suscetíveis, o FAMACHA possibilita tratamentos
+                seletivos, reduzindo a resistência parasitária a medicamentos. Além disso, a adoção desse método contribui
+                para diminuir o uso indiscriminado de anti parasitários, evitando desperdício e preservando a eficácia
+                desses medicamentos. Com uma criação mais sustentável, os produtores podem melhorar a qualidade dos
+                produtos, conquistar a confiança dos consumidores e fortalecer a competitividade no mercado,
+                impulsionando o desenvolvimento do setor agropecuário brasileiro (Molento, Marcelo Beltrão, et al).
+                </p>
+                <div class="justify-content-center" style="display: flex; justify-content: center;">
+                    <img src="CartaoFAMACHA.jpeg" alt="CartaoFAMACHA" style="max-width: 50%;">
+                </div>
+            <p class="lead">
+                    O método FAMACHA consiste em expor a mucosa ocular do animal e verificar sua coloração com base
+                em um cartão comparativo de cores. Esse teste é utilizado para selecionar os animais do rebanho que
+                necessitam de vermifugação. O cartão do método apresenta cinco níveis de coloração da mucosa ocular,
+                sendo os dois primeiros de cor vermelho viva, indicando que o animal está saudável, e os três últimos com
+                coloração progressivamente mais esbranquiçada, indicando traços de anemia e a necessidade de
+                vermifugação (Molento, Marcelo Beltrão, et al). O teste pode ser influenciado pela subjetividade do
+                examinador ao realizar a classificação, portanto é recomendável que seja executado pelo mesmo
+                profissional capacitado para evitar variações ou erros decorrentes de fadiga durante o procedimento .
+            
             </p>
-            <div class="justify-content-center" style="display: flex; justify-content: center;">
-                 <img src="CartaoFAMACHA.jpeg" alt="CartaoFAMACHA" style="max-width: 50%;">
-            </div>          
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
+            <p class="lead">
+                O propósito deste projeto consiste em desenvolver uma aplicação eficiente, fazendo uso de visão
+                computacional, para identificar a necessidade de vermifugação em cabras e ovelhas. A identificação será
+                efetuada através de imagens da mucosa ocularl dos animais, possibilitando uma análise rápida e precisa. A
+                referida aplicação virá a ser uma ferramenta de auxílio para os profissionais do ramo, viabilizando a
+                realização do teste em quantidades substanciais de animais ao longo do tempo, sem que haja uma
+                degradação na coerência dos dados. Com esta solução, um maior número de indivíduos poderá efetuar o
+                teste no mesmo rebanho, resultando numa melhoria da eficiência e da precisão do processo de detecção da
+                necessidade de medicação dos animais.
+            </p>        
+            
         </div>
     </div>
 
+    <style>
+        #backToTopBtn {
+          display: none;
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          z-index: 99;
+        }
+      </style>
+    </head>
+    <body>
+      <button id="backToTopBtn" class="btn btn-primary" onclick="scrollToTop()">Voltar ao Topo</button>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>    
+      <script>
+        window.onscroll = function() {
+          toggleBackToTopButton();
+        };
+        function toggleBackToTopButton() {
+          var backToTopBtn = document.getElementById("backToTopBtn");
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopBtn.style.display = "block";
+          } else {
+            backToTopBtn.style.display = "none";
+          }
+        }
+        function scrollToTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+
     <footer class="p-1 text-white accordion-collapse text-center" style="background-color:  rgb(115, 28, 28);">
         <div class="bg-transparent">
+            <span>Contatos</span>
             <nav class="nav justify-content-center nav-underline">
                 <div class="container">
                     <a href="#1" class="nav-link text-white col-3">Link 1</a>
